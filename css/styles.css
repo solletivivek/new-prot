@@ -1,0 +1,166 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+   
+    text-align: center;
+}
+h1{
+    font-size: 5.625em;
+    margin: 5px auto;
+    font-family: 'Dancing Script', cursive;
+    color: #66BFBF ;
+    line-height: 2;
+}
+a{
+    color: rgb(53, 50, 50);
+    font-family: 'Signika Negative', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover
+{
+
+color: #EAF6F6;
+}
+h2
+{
+    color: #11999E;
+}
+h3
+{
+        color: #11999E;
+}
+h4
+{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF ;
+    font-weight: normal;    
+}
+hr
+{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 50px auto 80px auto;
+}  
+p{
+    font-weight: 400;
+    color: black;
+    font-size: large;
+}  
+
+/***** CSS****/
+.skills
+{
+    margin-top: 20px;
+}
+
+.profile
+{
+    margin-top: 30px;
+}
+
+.top
+{
+    padding-top: 25%;
+    background-color: #cce3d9;
+   
+}
+
+.skill-row
+{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.cloud1
+{
+    position: absolute;
+    top: 0px;
+    left: 1000px;
+    margin: 0 auto;
+}
+.bottom-cloud
+{
+    position: absolute;
+    left: 100px;
+    top: 500px;
+}
+.mount
+{
+    position: relative;
+    top: 8px;
+    align-items: center;
+}
+.skill-image
+{
+    width: 25%;
+    float: left;
+    margin-right: 25px;
+}
+.skill-image-2
+{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.intro
+{
+    width: 30%;
+    margin: auto;
+    line-height: 2;
+}
+.contact-me
+{
+    width: 50%;
+    margin: 40px auto 30px;
+    line-height: 2;
+}
+.bottom-container
+{
+    background-color: #66BFBF;
+    color: #66BFBF ;
+    ;
+    padding: 50px 0 20px;
+}
+.btn {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+   .btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #66BFBF;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+   
+   .btn:hover {
+    color: #090707;
+   }
+   
+   .btn:hover::before {
+    width: 100%;
+   }
